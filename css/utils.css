@@ -1,0 +1,23 @@
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: 20px auto;
+}
+
+.p-w-30 {
+    max-width: 30vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
