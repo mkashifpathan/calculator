@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+    background-color: #4f70bc;
+}
+
+h3 {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: small;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 2px 5px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.row {
+    margin: 6px 0;
+    padding: 2px;
+}
+
+.row .input {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 5px 10px;
+    background-color: rgb(206, 200, 200);
+    box-shadow: 1px 1px 1px 1px gray;
+    font-family: 'Digital-7';
+}
+
+.row input::placeholder {
+    color: rgb(82, 82, 82);
+}
+
+.screen,
+.buttons {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #dae2f5;
+}
+.screen .row input {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.buttons {
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    font-family: math;
+}
+
+.row {
+    display: flex;
+    gap: 4px;
+}
+
+.button {
+    margin: 0 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.button:hover {
+    background-color: rgb(188, 187, 187);
+}
+.red {
+    background-color: red;
+    color: white;
+}
+
+.red:hover {
+    background-color: rgb(190, 7, 7);
+}
+
+.blue {
+    background-color: #749dff;
+}
+
+.blue:hover{
+    background-color: #6881bc;
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+}
