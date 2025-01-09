@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -61,7 +61,7 @@ h3 {
 .screen,
 .buttons {
     width: 100%;
-    padding: 10px;
+    padding: 22px;
     border-radius: 10px 10px 0 0;
     background-color: #dae2f5;
 }
