@@ -20,7 +20,11 @@ body {
     border-radius: 10px;
     position: relative;
     padding-top: 50px;
+    margin: 20px auto;
     background-color: #4f70bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h3 {
